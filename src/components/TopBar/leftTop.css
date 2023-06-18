@@ -1,0 +1,25 @@
+.text-span {
+  width: 7.174vw;
+  height: 3.62vh;
+}
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4.82vh;
+  padding-left: 1.61vw;
+  padding-bottom: 4.82vh;
+  padding-right: 1.61vw;
+  border: 1px solid #dbdbdb;
+}
+.colorfilter {
+  width: 1.75vw;
+  height: 3.62vh;
+}
+.left-corner {
+  display: flex;
+  justify-content: center;
+}
+.logo2 {
+  width: 1.9vw;
+  height: 3.01vh;
+}
