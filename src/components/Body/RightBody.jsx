@@ -17,7 +17,7 @@ const RightBody = () => {
       </div>
       <div className="div-two">
         <img src={ig3} alt="error" className="imagy" />
-        <img src={ig4} alt="error" />
+        <img src={ig4} alt="error" className="imagy2" />
       </div>
       <Board className="board" />
     </div>

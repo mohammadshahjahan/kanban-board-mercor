@@ -82,3 +82,89 @@ input {
   height: 2.71vh;
   width: 1.3177vw;
 }
+
+@media (max-width: 768px) {
+  .profile {
+    display: flex;
+    justify-content: space-between;
+    width: 32.28vw;
+  }
+  input {
+    border: none;
+    position: absolute;
+    width: 10.32vw;
+    height: 2.564vh;
+    background: #f5f5f5;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.1116vh;
+    line-height: 2.564vh;
+    /* identical to box height */
+
+    color: #787486;
+  }
+  .search-bar {
+    box-sizing: border-box;
+    background: #f5f5f5;
+    border-radius: 6px;
+    height: 6.636vh;
+    width: 30.527vw;
+    padding: 1.81vh 0.878vw 1.81vh 0.878vw;
+  }
+  .logo3 {
+    width: 1.61vw;
+    height: 3.318vh;
+    margin-right: 0.878vw;
+  }
+
+  .box2 {
+    width: 100%;
+    padding-left: 5%;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    column-gap: 2%;
+  }
+  .logo4 {
+    padding-top: 1.5vh;
+    height: 3.62vh;
+    width: 8.784vw;
+  }
+  .name-add {
+    display: flex;
+    flex-direction: row;
+    width: 8.27vw;
+    height: 5.88vh;
+    row-gap: 0.45vh;
+  }
+  .name {
+    height: 2.865vh;
+    color: #0d062d;
+  }
+  .add {
+    height: 2.564vh;
+    color: #787486;
+  }
+
+  .right-corner {
+    display: flex;
+    column-gap: 3.66vw;
+  }
+  .right-corner > span {
+    display: flex;
+    column-gap: 0.73vw;
+  }
+  .logo5 {
+    height: 5.88vh;
+  }
+  .logo6 {
+    height: 5.73vh;
+    width: 2.78vw;
+  }
+  .logo7 {
+    padding-top: 1.5vh;
+    height: 2.71vh;
+    width: 1.3177vw;
+  }
+}

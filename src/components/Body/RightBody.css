@@ -85,3 +85,34 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+  .right-body,
+  .div-one,
+  .div-two,
+  .board {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .right-body-text {
+    font-size: 20px;
+  }
+  .div1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .div-one {
+    padding-left: 60px;
+  }
+  .div1 > img {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.imagy2 {
+  padding-left: 50px;
+}
