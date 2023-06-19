@@ -6,7 +6,6 @@ import user from "../../assests/profile-2user.png";
 import set from "../../assests/setting-2.png";
 import sq from "../../assests/add-square.png";
 import ep19 from "../../assests/Union.png";
-import lamp from "../../assests/lamp-on.png";
 
 const LeftBody = () => {
   return (
@@ -75,17 +74,6 @@ const LeftBody = () => {
           style={{ width: 160, height: 180 }}
           className="one"
         />
-        <img src={lamp} alt="error" className="two" />
-        <div className="msg">
-          <strong>Thoughts Time</strong>
-          <span>
-            We don’t have any notice for you, till then you can share your
-            thoughts with your peers.
-          </span>
-          <button>
-            <strong>Write a message</strong>
-          </button>
-        </div>
       </div>
     </div>
   );

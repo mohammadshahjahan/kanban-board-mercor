@@ -3,6 +3,7 @@ import ig from "../../assests/Group 643.png";
 import ig2 from "../../assests/Group 646.png";
 import ig3 from "../../assests/Group 647.png";
 import ig4 from "../../assests/Group 617.png";
+import Board from "./board";
 
 const RightBody = () => {
   return (
@@ -18,6 +19,7 @@ const RightBody = () => {
         <img src={ig3} alt="error" className="imagy" />
         <img src={ig4} alt="error" />
       </div>
+      <Board className="board" />
     </div>
   );
 };

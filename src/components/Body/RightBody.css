@@ -41,3 +41,47 @@
 .imagy {
   padding-left: 48px;
 }
+
+.board {
+  display: flex;
+  padding: 3%;
+  column-gap: 2%;
+}
+
+.todo {
+  background: #800080;
+  border: 3px solid #5030e5;
+}
+.in-progress {
+  border: 3px solid #ffa500;
+}
+.done {
+  border: 3px solid #8bc48a;
+}
+.column {
+  background: #f5f5f5;
+  border-radius: 16px 16px 0px 0px;
+  padding: 2%;
+}
+
+.task {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+.task-list {
+  padding: 1%;
+}
+
+.folder {
+  display: flex;
+  justify-content: space-between;
+  font-size: 55%;
+  padding-top: 8%;
+}
+.folder > span {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
